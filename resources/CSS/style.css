@@ -1,0 +1,137 @@
+/**General Styling**/
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+  line-height: 1.4;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/**Banner**/
+
+.banner {
+  background-image: url(../images/glasses-bg.png);
+  height: 30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.nav {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 1rem;
+  color: white;
+}
+
+.left-nav,
+.right-nav {
+  display: flex;
+}
+
+.left-nav img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+.right-nav li {
+  display: inline-block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+}
+
+.right-nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+.text-box {
+  background-color: white;
+  color: black;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+  padding: 1.5rem 5rem;
+  float: right;
+  margin-top: 12rem;
+  margin-right: 4.5rem;
+}
+
+/**Icons!**/
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  height: 8rem;
+  margin-top: 3rem;
+}
+
+.icons {
+  display: flex;
+  width: 33.5rem;
+}
+
+.box {
+  max-height: 8rem;
+  text-align: center;
+  padding-right: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.exam.box,
+.fittings.box {
+  padding-right: 6rem;
+}
+
+.box img {
+  max-height: 5rem;
+}
+
+.fittings img {
+  max-width: 5rem;
+}
+
+.exam img {
+  max-width: 3.5rem;
+}
+
+.delivery img {
+  max-width: 5rem;
+}
+
+/**Company contact info**/
+.company-box {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+}
+.title-box {
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+}
+
+.company-container {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+}
+
+.left-company-container
+.right-company-container {
+  display: flex;
+  flex-direction: column;
+}
